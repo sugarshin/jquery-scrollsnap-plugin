@@ -1,3 +1,5 @@
+require('./jquery.scrollstop.js');
+
 (function( $ ) {
 
     /**
@@ -149,4 +151,4 @@
         });
     };
 
-})( jQuery );
+})(require('jquery'));
